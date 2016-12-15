@@ -1,0 +1,9 @@
+D:\Digital\Code\DelegatesExercise\DelegatesExercise\DelegatesExercise\bin\Debug\DelegatesExercise.exe.config
+D:\Digital\Code\DelegatesExercise\DelegatesExercise\DelegatesExercise\bin\Debug\DelegatesExercise.exe
+D:\Digital\Code\DelegatesExercise\DelegatesExercise\DelegatesExercise\bin\Debug\DelegatesExercise.pdb
+D:\Digital\Code\DelegatesExercise\DelegatesExercise\DelegatesExercise\obj\Debug\DelegatesExercise.csprojResolveAssemblyReference.cache
+D:\Digital\Code\DelegatesExercise\DelegatesExercise\DelegatesExercise\obj\Debug\DelegatesExercise.Form1.resources
+D:\Digital\Code\DelegatesExercise\DelegatesExercise\DelegatesExercise\obj\Debug\DelegatesExercise.Properties.Resources.resources
+D:\Digital\Code\DelegatesExercise\DelegatesExercise\DelegatesExercise\obj\Debug\DelegatesExercise.csproj.GenerateResource.Cache
+D:\Digital\Code\DelegatesExercise\DelegatesExercise\DelegatesExercise\obj\Debug\DelegatesExercise.exe
+D:\Digital\Code\DelegatesExercise\DelegatesExercise\DelegatesExercise\obj\Debug\DelegatesExercise.pdb
