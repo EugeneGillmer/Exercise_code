@@ -1,0 +1,92 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+
+	<script src="DokScripts.js"></script>
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+	<link rel="stylesheet" type="text/css" href="DokStyle.css">
+
+	<title>Dr P. - Contact Us</title>
+</head>
+
+<body style="background-color:#D0D0D8">
+
+	<!--logo, Navigation-->
+	<header>
+		<a href="index.html">
+			<h1 style="font-size:65px; "><img src="logotipo.png" style="width:100px" />Dr. Doctor</h1>
+		</a>
+		<p style="text-shadow:-1px 1px 1px white">Lorem ipsum dolor sit amet</p>
+
+		<table>
+			<tr>
+				<td><a href="index.html" />Home</td>
+				<td style="text-shadow:-1px 1px 1px white">&emsp;&alefsym;&emsp;</td>
+				<td><a href="about.html" />About Us</td>
+				<td style="text-shadow:-1px 1px 1px white">&emsp;&alefsym;&emsp;</td>
+				<td><a href="procedures.html" />Procedures</td>
+				<td style="text-shadow:-1px 1px 1px white">&emsp;&alefsym;&emsp;</td>
+				<td><a style="color:darkcyan" href="contact.html" />Contact Us</td>
+			</tr>
+		</table>
+
+		<hr style="border-width:2px; width:150%; border-color:darkslategray" />
+	</header>
+
+	<!--tabs-->
+	<p style="margin:400px 0 0 0"></p>
+	<div style="background-color: rgba(0,0,0,0.8)">
+		<div class="tab" style="margin:0 350px 0 350px">
+			<button class="tablinks" onclick="openTab(event, 'Lorem')" id="defaultOpen">Lorem</button>
+			<button class="tablinks" onclick="openTab(event, 'Ipsum')">Ipsum</button>
+			<button class="tablinks" onclick="openTab(event, 'Dolor')">Dolor</button>
+		</div>
+	</div>
+
+	<div id="Lorem" class="tabcontent">
+		<h1>Lorem</h1>
+		<img class="pictureBox" src=" logotipo.png" />
+		<p>Lorem LoremLoremLorem Lorem.</p>
+	</div>
+
+	<div id="Ipsum" class="tabcontent">
+		<h1>Ipsum</h1>
+		<img class="pictureBox" src=" logotipo.png" />
+		<p>Ipsum IpsumIpsumIpsum Ipsum.</p>
+	</div>
+
+	<div id="Dolor" class="tabcontent">
+		<h1>Dolor</h1>
+		<img class="pictureBox" src=" logotipo.png" />
+		<p>Dolor DolorDolorDolor Dolor.</p>
+	</div>
+
+	<script>
+		document.getElementById("defaultOpen").click();
+	</script>
+
+	<!--map-->
+	<div id="map"></div>
+	<script>
+		function initMap() {
+			var uluru = { lat: 37.422379, lng: -122.084310 };
+			var map = new google.maps.Map(document.getElementById('map'), {
+				zoom: 17,
+				center: uluru
+			});
+			var marker = new google.maps.Marker({
+				position: uluru,
+				map: map
+			});
+		}
+	</script>
+	<script async defer
+			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBOmuNhfuTJ3-LVq_wPbsiP_gPzAflHZpk&callback=initMap">
+	</script>
+
+</body>
+
+
+</html>
